@@ -16,7 +16,7 @@ const MyWork = () => {
                     return <img key={index} src={work.w_img} alt="" />
                 })}
             </div>
-            <div className="mywork-showmode">
+            <div className="mywork-showmore">
                 <p>Más</p>
                 <img src={arrow_icon} alt="" />
             </div>
