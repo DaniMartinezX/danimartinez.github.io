@@ -2,7 +2,7 @@
   "name": "my-web-site",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://DaniMartinezX.github.io/my-web-site/",
+  "homepage": "https://danimartinezx.github.io/portfolio_web/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
