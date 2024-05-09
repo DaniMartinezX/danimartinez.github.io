@@ -21,8 +21,6 @@ const MyWork = () => {
 
                     let href;
                     if (index === 3) {
-                        href = ""
-                    } if (index === 4) {
                         href = `https://github.com/DaniMartinezX/Meals-app`
                     } else {
                         href = `src/assets/works/work_${index}.html`

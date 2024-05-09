@@ -23,11 +23,6 @@ const mywork_data = [
     },
     {
         w_no: 4,
-        w_name: "Ocupación, paro y actividad en Galicia: Análisis con PowerBI",
-        w_des: "Panel de control con PowerBI relacionando el número de población, tasas de actividad, ocupación y paro de Galicia."
-    },
-    {
-        w_no: 5,
         w_name: "El chef digital: Una app de recetas Android con MVVM, Dagger Hilt y Retrofit",
         w_des: "Desarrollo de app nativa Android con Kotlin sobre recetas de cocina, implementando en ella inyección de dependencias Dagger Hilt, servicios Firebase, ROOM, arquitectura MVVM y consumo de API REST con Retrofit."
     },
