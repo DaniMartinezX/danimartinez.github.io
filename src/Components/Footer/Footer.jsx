@@ -1,7 +1,7 @@
 import React from "react";
 import './Footer.css'
-import footer_logo from '../../assets/footer_logo.svg'
-import user_icon from '../../assets/user_icon.svg'
+import footer_logo from '../../assets/logo.jpg'
+// import user_icon from '../../assets/user_icon.svg'
 
 const Footer = () => {
     return (
@@ -11,22 +11,22 @@ const Footer = () => {
                     <img src={footer_logo} alt="" />
                     <p>Desarrollador Multiplataforma</p>
                 </div>
-                <div className="footer-top-right">
+                {/* <div className="footer-top-right">
                     <div className="footer-email-input">
                         <img src={user_icon} alt="" />
                         <input type="email" placeholder="Escribe tu email" />
                     </div>
                     <div className="footer-subscribe">Subscríbete</div>
-                </div>
+                </div> */}
             </div>
             <hr />
             <div className="footer-bottom">
                 <p className="footer-bottom-left">© 2024 Daniel Martínez.</p>
-                <div className="footer-bottom-right">
+                {/* <div className="footer-bottom-right">
                     <p>Término de servicios</p>
                     <p>Política de privacidad</p>
                     <p>Conecta conmigo</p>
-                </div>
+                </div> */}
             </div>
         </div>
     )

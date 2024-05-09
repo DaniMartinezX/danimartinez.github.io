@@ -5,6 +5,13 @@
     margin: 20px 170px;
 }
 
+.navbar-logo {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 .nav-menu {
     display: flex;
     align-items: center;

@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/about_profile.svg'
+import profile_img from '../../assets/img_about.jpg'
 
 const About = () => {
     return (
@@ -16,7 +16,7 @@ const About = () => {
                 </div>
                 <div className="about-right">
                     <div className="about-para">
-                        <p>Desarrollador de aplicaciones con conocimientos en IA y Big Data</p>
+                        <p>Desarrollador de aplicaciones especializado en IA y Big Data</p>
                         <p>Soy una persona apasionada por la tecnología y el deporte, con un don de gentes destacado. Me considero una persona familiar y estoy constantemente buscando oportunidades para desarrollarme profesionalmente y aprender.</p>
                     </div>
                     <div className="about-skills">
@@ -27,7 +27,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="about-achievements">
+            {/* <div className="about-achievements">
                 <div className="about-achievement">
                     <h1>10</h1>
                     <p>YEARS OF EXPERIENCE</p>
@@ -42,7 +42,7 @@ const About = () => {
                     <h1>18</h1>
                     <p>HAPPY CLIENTS</p>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

@@ -29,6 +29,12 @@
     gap: 80px;
 }
 
+.about-sections img {
+    width: 500px;
+    height: 550px;
+    object-fit: cover;
+}
+
 .about-left {
     float: left;
 }
