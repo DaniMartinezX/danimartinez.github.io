@@ -44,9 +44,9 @@ const Contact = () => {
                         <div className="contact-detail">
                             <img src={mail_icon} alt="" /><p>danielmartinezcarreira@gmail.com</p>
                         </div>
-                        <div className="contact-detail">
+                        {/* <div className="contact-detail">
                             <img src={call_icon} alt="" /><p>+34 622 18 43 56</p>
-                        </div>
+                        </div> */}
                         <div className="contact-detail">
                             <img src={location_icon} alt="" /><p>A Coruña, España</p>
                         </div>
